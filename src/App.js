@@ -1,10 +1,10 @@
 import './App.css';
-
+import Navbar from './component/Navbar';
 function App() {
   return (
     <>
-    <h1>Hello World</h1>
-  
+    
+  <Navbar title="Textutils" aboutText="About Textutils"/>
     </>
   );
 }
